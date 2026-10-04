@@ -36,9 +36,14 @@ These notes follow the same rules:
 
 ```text
 .
+├── .github/
+│   ├── ISSUE_TEMPLATE/feedback.yml
+│   └── PULL_REQUEST_TEMPLATE.md
 ├── LICENSE
 ├── README.md
 ├── README.en.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 ├── bugfix-diagnosis-flow/
 │   ├── SKILL.md
 │   └── references/bug-record-template.md
@@ -100,4 +105,4 @@ These notes follow the same rules:
 
 ## Feedback
 
-Issues and suggestions are welcome.
+Issues and suggestions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for the ground rules.

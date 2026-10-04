@@ -36,9 +36,14 @@
 
 ```text
 .
+├── .github/
+│   ├── ISSUE_TEMPLATE/feedback.yml
+│   └── PULL_REQUEST_TEMPLATE.md
 ├── LICENSE
 ├── README.md
 ├── README.en.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 ├── bugfix-diagnosis-flow/
 │   ├── SKILL.md
 │   └── references/bug-record-template.md
@@ -100,4 +105,4 @@
 
 ## 反馈
 
-欢迎提 issue 或建议。
+欢迎提 issue 或建议，贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)，交流规范见 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)。

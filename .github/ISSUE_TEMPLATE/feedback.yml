@@ -1,0 +1,44 @@
+name: 反馈 / 建议
+description: 报告某块内容不适用，或提出改进建议
+title: "[反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。最有价值的是**反例**：某套流程在你的实际场景里没起作用，或漏掉了某种情况。
+
+  - type: dropdown
+    id: workflow
+    attributes:
+      label: 涉及哪套工作流
+      options:
+        - bugfix-diagnosis-flow
+        - language-migration-flow
+        - scheduled-polling-flow
+        - 整体 / 其它
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你的场景
+      description: 什么类型的项目、什么问题、规模大概多大
+      placeholder: 例如：Android 项目从 Kotlin 迁到 Rust，约 30 个文件，需要保留原有对外接口
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 哪里卡住了 / 哪里不适用
+      description: 具体到哪一步、哪个产出物、哪个模板
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议怎么改（可选）
+    validations:
+      required: false
